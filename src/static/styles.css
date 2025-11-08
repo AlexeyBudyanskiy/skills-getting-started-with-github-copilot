@@ -179,6 +179,24 @@ footer {
   box-shadow: 0 1px 0 rgba(255,255,255,0.6) inset;
 }
 
+/* Remove participant button (small "x" inside the pill) */
+.participant-pill .remove-participant {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  color: #b00020;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 12px;
+  line-height: 1;
+  font-size: 12px;
+}
+
+.participant-pill .remove-participant:hover {
+  background: rgba(176,0,32,0.08);
+}
+
 /* Fallback message when no participants */
 .participants-section .no-participants {
   margin: 6px 0 0 0;
